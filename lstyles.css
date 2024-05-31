@@ -9,7 +9,7 @@ body {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: inherit;
 }
 
 h1,
@@ -26,7 +26,7 @@ p {
     padding: 0 20px;
 }
 
-
+/* Header styles */
 header {
     background: linear-gradient(135deg, #667eea, #764ba2);
     color: #fff;
@@ -90,7 +90,7 @@ header .btn:hover {
     }
 }
 
-
+/* Section styles */
 section {
     padding: 80px 0;
     text-align: center;
@@ -114,7 +114,7 @@ section {
     }
 }
 
-
+/* About section styles */
 .about {
     background: linear-gradient(to right, #ffecd2, #fcb69f);
 }
@@ -129,7 +129,7 @@ section {
     line-height: 1.6;
 }
 
-
+/* Resume section styles */
 .resume {
     background: linear-gradient(to right, #d4fc79, #96e6a1);
 }
@@ -183,6 +183,7 @@ section {
     border-radius: 5px;
 }
 
+/* Projects section styles */
 .projects {
     background: linear-gradient(to right, #84fab0, #8fd3f4);
 }
@@ -225,6 +226,7 @@ section {
     line-height: 1.6;
 }
 
+/* Contact section styles */
 .contact {
     background: linear-gradient(to right, #ff9a9e, #fecfef);
 }
@@ -276,6 +278,7 @@ section {
     transform: scale(1.1);
 }
 
+/* Footer styles */
 footer {
     background: #333;
     color: #fff;
@@ -287,7 +290,7 @@ footer p {
     margin: 0;
 }
 
-
+/* Animations */
 @keyframes fadeInSection {
     from {
         opacity: 0;
